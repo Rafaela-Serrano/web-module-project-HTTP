@@ -15,7 +15,7 @@ const DeleteMovieModal = () => {
           </div>
           <div className="modal-footer">
             <input type="button" className="btn btn-default" data-dismiss="modal" value="Cancel" />
-            <input type="submit" className="btn btn-danger" value="Delete" />
+            <input type="submit" className="btn btn-danger" value="Delete" onClick={handleDelete} />
           </div>
         </form>
       </div>
